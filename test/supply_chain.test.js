@@ -18,13 +18,13 @@ contract("SupplyChain", function (accounts) {
   });
 
   describe("Variables", () => {
-    // it("should have an owner", async () => {
-    //   assert.equal(typeof instance.owner, 'function', "the contract has no owner");
-    // });
+    it("should have an owner", async () => {
+      assert.equal(typeof instance.owner, 'function', "the contract has no owner");
+    });
 
-    // it("should have an skuCount", async () => {
-    //   assert.equal(typeof instance.skuCount, 'function', "the contract has no skuCount");
-    // });
+    it("should have an skuCount", async () => {
+      assert.equal(typeof instance.skuCount, 'function', "the contract has no skuCount");
+    });
 
     describe("enum State", () => {
       let enumState;
